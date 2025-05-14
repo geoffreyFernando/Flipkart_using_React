@@ -1,0 +1,30 @@
+.header_Container{
+    background-color: rgb(219, 219, 219);
+    width: 100%;
+    min-height: 12vh;
+    border: 2px solid black;
+
+    /* Center child elements using flex */
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center;     /* Vertically center (optional) */
+}
+.header{
+    display: flex;
+    align-items: center;
+    /* width: 67px; */
+    
+    border: 2px solid red;
+    padding: 12px 28px;
+}
+.header img{
+    width: 160px;
+    height: 40px;
+    /* margin-right: 36px; */
+    /* margin-left: 60px; */
+    aspect-ratio: auto 160 / 40;
+}
+.header input{
+    width: 622.25px;
+    height: 40px;
+}
