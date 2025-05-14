@@ -9,8 +9,13 @@ function Header(){
         <div className={styles.header_Container}>
             <div className={styles.header}>
                 <img src={flipkartLogo} alt="Flipkart" style={{padding :'2px'}}></img>
-                <i class="bi bi-search"></i>
+                {/* <i class="bi bi-search"></i> */}
                 <input className="form-control" placeholder="Search for Products, Brands and More"></input>
+                <div className={styles.headerBtn}>
+                    <button className={styles.headerBtn}>Login</button>
+                    <button className={styles.headerBtn}>Cart</button>
+                    <button className={styles.headerBtn}>Become a Seller</button>
+                </div>
             </div>
         </div>
     );

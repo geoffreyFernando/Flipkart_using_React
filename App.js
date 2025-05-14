@@ -9,6 +9,5 @@ function App() {
     </div>
   );
 } 
-//trying to push the code again
 
 export default App;

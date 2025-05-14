@@ -12,7 +12,7 @@
 .header{
     display: flex;
     align-items: center;
-    /* width: 67px; */
+    width: 85%;
     
     border: 2px solid red;
     padding: 12px 28px;
@@ -22,9 +22,13 @@
     height: 40px;
     /* margin-right: 36px; */
     /* margin-left: 60px; */
-    aspect-ratio: auto 160 / 40;
+    /* aspect-ratio: auto 160 / 40; */
 }
 .header input{
-    width: 622.25px;
+    width: 722.25px;
     height: 40px;
+    margin-left: 2%;
+}
+.headerBtn{
+    padding: 0px 20px;
 }
