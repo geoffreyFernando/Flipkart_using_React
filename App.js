@@ -8,7 +8,7 @@ function App() {
       <Header />
       <p> Added from gitHub </p>
       <p>FrontEnd</p>
-      <p>This is an importnant Line</p>
+      <p>This is an importnant Line from GitHub</p>
     </div>
   );
 } 
