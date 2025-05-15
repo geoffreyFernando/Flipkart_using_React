@@ -7,6 +7,7 @@ function App() {
     <div>
       <Header />
       <p> Added from gitHub </p>
+      <p>FrontEnd</p>
     </div>
   );
 } 
