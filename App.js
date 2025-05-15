@@ -6,6 +6,7 @@ function App() {
   return (
     <div>
       <Header />
+      <p> Added from gitHub </p>
     </div>
   );
 } 
